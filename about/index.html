@@ -10,7 +10,7 @@
   
   <title>
     
-      Coffeeeeel&#39;s Blog
+      About | Coffeeeeel&#39;s Blog
     
   </title>
   <link href="//cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
@@ -137,68 +137,73 @@
   </div>
 </header>
 
-    <div id="article-banner">
-  <h2>Archives</h2>
-  <p class="post-date">文章归档</p>
+    <div id="about-banner" style="background-image: url(easyread.ph.126.net/3xDHcyBV7JnXDTRc78_YUw==/8796093022384986466.jpg)"></div>
+<div class="author">
+  <div class="head">
+    <img src="img4.imgtn.bdimg.com/it/u=2948140159,1965026100&fm=214&gp=0.jpg" />
+  </div>
+  <h3>Coffeeeeel</h3>
+  
+    <p class="description">日拱一卒，功不唐捐。</p>
+  
+  <section class="share-icons">
+    
+      <a class="icon-weibo" href="http://weibo.com/Coffeeeel" target="_blank">
+        <span class="fa-stack fa-lg">
+          <i class="fa fa-circle fa-stack-2x"></i>
+          <i class="fa fa-weibo fa-stack-1x fa-inverse"></i>
+        </span>
+      </a>
+    
+    
+      <a class="icon-twitter" href="https://twitter.com//" target="_blank">
+        <span class="fa-stack fa-lg">
+          <i class="fa fa-circle fa-stack-2x"></i>
+          <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+        </span>
+      </a>
+    
+    
+      <a class="icon-github" href="https://github.com/Coffeeeeel" target="_blank">
+        <span class="fa-stack fa-lg">
+          <i class="fa fa-circle fa-stack-2x"></i>
+          <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+        </span>
+      </a>
+    
+    
+      <a class="icon-zhihu" href="https://www.zhihu.com/people/刘文丑" target="_blank">
+        <span class="fa-stack fa-lg">
+          <i class="fa fa-circle fa-stack-2x"></i>
+          <i class="fa fa-stack-1x fa-inverse">知</i>
+        </span>
+      </a>
+    
+    
+        <a class="icon-douban" href="https://www.douban.com/people//" target="_blank">
+            <span class="fa-stack fa-lg">
+                <i class="fa fa-circle fa-stack-2x"></i>
+                <i class="fa fa-stack-1x fa-inverse">豆</i>
+            </span>
+        </a>
+    
+  </section>
 </div>
-<main class="app-body" id="archives">
-  
-  
-  
-    <section class="time-section">
-  <h1 class="section-year">
-    2018
-  </h1>
-  <div class="section-list">
-    
-    
-      <div class="section-list-item">
-        <a href="/2018/04/17/test2/" class="archive-title"></a>
-        <p class="archive-date">04-17</p>
-      </div>
-    
-      <div class="section-list-item">
-        <a href="/2018/04/17/test22/" class="archive-title">test22</a>
-        <p class="archive-date">04-17</p>
-      </div>
-    
-      <div class="section-list-item">
-        <a href="/2018/04/17/Hello-blog/" class="archive-title">Hello blog</a>
-        <p class="archive-date">04-17</p>
-      </div>
-    
-      <div class="section-list-item">
-        <a href="/2018/04/17/hello-world/" class="archive-title">Hello World</a>
-        <p class="archive-date">04-17</p>
-      </div>
-    
-  </div>
-</section>
-  
-    <section class="time-section">
-  <h1 class="section-year">
-    2016
-  </h1>
-  <div class="section-list">
-    
-    
-      <div class="section-list-item">
-        <a href="/2016/06/10/test22(1)/" class="archive-title">Hello blog</a>
-        <p class="archive-date">06-10</p>
-      </div>
-    
-  </div>
-</section>
-  
-</main>
 
 <script>
   (function () {
-    var url = 'http://yoursite.com/tags/test2/index.html';
-    $('#article-banner').geopattern(url);
-    $('.header').removeClass('fixed-header');
+    $('.header').removeClass('fixed-header')
+    var windowH = $(window).height();
+    var author = $('.author')
+    var bodyH = author.offset().top + author[0].offsetHeight + 71;
+    if (bodyH < windowH) {
+      author.css({
+        'margin-bottom': windowH - bodyH
+      })
+    }
   })();
 </script>
+
     <div class="scroll-top">
   <span class="arrow-icon"></span>
 </div>
