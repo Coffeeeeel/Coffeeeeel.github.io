@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-04-18T13:53:22.000Z</updated>
+  <updated>2018-04-19T12:00:08.000Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,36 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>2018年4月19腿部</title>
+    <link href="http://yoursite.com/2018/04/19/2018%E5%B9%B44%E6%9C%8819%E8%85%BF%E9%83%A8/"/>
+    <id>http://yoursite.com/2018/04/19/2018年4月19腿部/</id>
+    <published>2018-04-19T12:00:25.690Z</published>
+    <updated>2018-04-19T12:00:08.000Z</updated>
+    
+    <content type="html"><![CDATA[<ul><li>引体向上 66磅 8×4</li><li>酒杯深蹲17.5Kg 8×6</li><li>坐姿屈腿40Kg 8×6</li><li>俯卧屈腿30Kg 8×6</li><li>站姿提踵60Kg 8×6</li><li>坐姿踢腿40Kg 8×6</li><li>坐姿并腿40Kg 8×6</li><li>坐姿分腿40Kg 8×6</li><li>卷腹 30×4+20×2</li></ul>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;ul&gt;
+&lt;li&gt;引体向上 66磅 8×4&lt;/li&gt;
+&lt;li&gt;酒杯深蹲17.5Kg 8×6&lt;/li&gt;
+&lt;li&gt;坐姿屈腿40Kg 8×6&lt;/li&gt;
+&lt;li&gt;俯卧屈腿30Kg 8×6&lt;/li&gt;
+&lt;li&gt;站姿提踵60Kg 8×6&lt;/li&gt;
+&lt;li&gt;坐姿踢腿40Kg 8×6&lt;/li&gt;
+&lt;
+      
+    
+    </summary>
+    
+    
+      <category term="健身" scheme="http://yoursite.com/tags/%E5%81%A5%E8%BA%AB/"/>
+    
+  </entry>
   
   <entry>
     <title>利用hexo+GitHub快速搭建免费blog</title>
