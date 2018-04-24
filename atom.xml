@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-04-24T00:59:28.000Z</updated>
+  <updated>2018-04-24T01:10:22.000Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -21,12 +21,22 @@
     <link href="http://yoursite.com/2018/04/24/echarts-test/"/>
     <id>http://yoursite.com/2018/04/24/echarts-test/</id>
     <published>2018-04-24T00:59:27.000Z</published>
-    <updated>2018-04-24T00:59:28.000Z</updated>
+    <updated>2018-04-24T01:10:22.000Z</updated>
+    
+    <content type="html"><![CDATA[<div id="echarts3145" style="width: 85%;height: 400px;margin: 0 auto"></div><script src="http://echarts.baidu.com/dist/echarts.common.min.js"></script><script type="text/javascript">        // 基于准备好的dom，初始化echarts实例        var myChart = echarts.init(document.getElementById('echarts3145'));        // 指定图表的配置项和数据        var option = {    tooltip : {        trigger: 'axis',        axisPointer : {                        type : 'shadow'        }    },    legend: {        data:['利润', '支出', '收入']    },    grid: {        left: '3%',        right: '4%',        bottom: '3%',        containLabel: true    },    xAxis : [        {            type : 'value'        }    ],    yAxis : [        {            type : 'category',            axisTick : {show: false},            data : ['周一','周二','周三','周四','周五','周六','周日']        }    ],    series : [        {            name:'利润',            type:'bar',            itemStyle : {                normal: {                    label: {show: true, position: 'inside'}                }            },            data:[200, 170, 240, 244, 200, 220, 210]        },        {            name:'收入',            type:'bar',            stack: '总量',            itemStyle: {                normal: {                    label : {show: true}                }            },            data:[320, 302, 341, 374, 390, 450, 420]        },        {            name:'支出',            type:'bar',            stack: '总量',            itemStyle: {normal: {                label : {show: true, position: 'left'}            }},            data:[-120, -132, -101, -134, -190, -230, -210]        }    ]};        // 使用刚指定的配置项和数据显示图表。        myChart.setOption(option);</script>]]></content>
     
     <summary type="html">
     
+      
+      
+        &lt;div id=&quot;echarts3145&quot; style=&quot;width: 85%;height: 400px;margin: 0 auto&quot;&gt;&lt;/div&gt;
+&lt;script src=&quot;http://echarts.baidu.com/dist/echarts.common.min.j
+      
+    
     </summary>
     
+    
+      <category term="test" scheme="http://yoursite.com/tags/test/"/>
     
   </entry>
   
