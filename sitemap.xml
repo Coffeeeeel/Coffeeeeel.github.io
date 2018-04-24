@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://yoursite.com/2018/04/24/echarts-test/</loc>
+    
+    <lastmod>2018-04-24T00:59:28.000Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://yoursite.com/2018/04/23/2018%E5%B9%B44%E6%9C%8823%E8%83%B8%E9%83%A8/</loc>
     
     <lastmod>2018-04-23T12:57:28.000Z</lastmod>
@@ -44,14 +51,14 @@
   </url>
   
   <url>
-    <loc>http://yoursite.com/tags/index.html</loc>
+    <loc>http://yoursite.com/project/index.html</loc>
     
     <lastmod>2018-02-03T11:55:08.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://yoursite.com/project/index.html</loc>
+    <loc>http://yoursite.com/tags/index.html</loc>
     
     <lastmod>2018-02-03T11:55:08.000Z</lastmod>
     
