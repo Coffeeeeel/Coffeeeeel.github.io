@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-08-02T02:07:26.000Z</updated>
+  <updated>2018-08-19T06:37:08.000Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,35 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>2018年8月18日</title>
+    <link href="http://yoursite.com/2018/08/18/2018%E5%B9%B48%E6%9C%8818%E6%97%A5/"/>
+    <id>http://yoursite.com/2018/08/18/2018年8月18日/</id>
+    <published>2018-08-17T16:00:00.000Z</published>
+    <updated>2018-08-19T06:37:08.000Z</updated>
+    
+    <content type="html"><![CDATA[<ul><li>引起向上 徒手 8*6</li><li>半程硬拉 30Kg 8*6</li><li>小弯杠铃划船 20Kg 8×6</li><li>哑铃单手划船 20Kg 8*6</li><li>山羊挺身 徒手 10*8</li><li>坐姿划船 65Kg 8*6 </li><li>Keep 五维腹肌 </li></ul>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;ul&gt;
+&lt;li&gt;引起向上 徒手 8*6&lt;/li&gt;
+&lt;li&gt;半程硬拉 30Kg 8*6&lt;/li&gt;
+&lt;li&gt;小弯杠铃划船 20Kg 8×6&lt;/li&gt;
+&lt;li&gt;哑铃单手划船 20Kg 8*6&lt;/li&gt;
+&lt;li&gt;山羊挺身 徒手 10*8&lt;/li&gt;
+&lt;li&gt;坐姿划船 65Kg 8*6 &lt;
+      
+    
+    </summary>
+    
+    
+      <category term="健身背部" scheme="http://yoursite.com/tags/%E5%81%A5%E8%BA%AB%E8%83%8C%E9%83%A8/"/>
+    
+  </entry>
   
   <entry>
     <title>2018年07月31日</title>
@@ -560,30 +589,6 @@
     
     
       <category term="健身腿部" scheme="http://yoursite.com/tags/%E5%81%A5%E8%BA%AB%E8%85%BF%E9%83%A8/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>利用hexo+GitHub快速搭建免费blog</title>
-    <link href="http://yoursite.com/2018/04/18/%E5%88%A9%E7%94%A8hexo%E5%92%8CGitHub%E5%BF%AB%E9%80%9F%E6%90%AD%E5%BB%BA%E5%85%8D%E8%B4%B9blog/"/>
-    <id>http://yoursite.com/2018/04/18/利用hexo和GitHub快速搭建免费blog/</id>
-    <published>2018-04-18T13:43:39.590Z</published>
-    <updated>2018-04-18T13:53:22.000Z</updated>
-    
-    <content type="html"><![CDATA[<blockquote><p>参考了一些文章，最终决定利用hexo这个博客框架加GitHub搭建自己的博客，目的也是为了督促自己能够多写一些东西。该文主要参考了<a href="https://wuxingggg.github.io/2017/12/22/第二篇/" target="_blank" rel="noopener">@无小意</a>博文中的路线，因此基本上没遇到什么坑，此外还用了<a href="https://yanm1ng.github.io/" target="_blank" rel="noopener">@yanm1ng</a>配置的vexo主题（简洁漂亮），特此感谢。</p></blockquote><h1 id="零-环境配置"><a href="#零-环境配置" class="headerlink" title="零 环境配置"></a>零 环境配置</h1><ul><li>windows10 64位系统</li><li>Notepad编辑器</li><li><a href="https://nodejs.org/en/" target="_blank" rel="noopener">Node.js安装</a></li><li><a href="https://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000" target="_blank" rel="noopener">Git安装及配置</a></li><li><a href="https://hexo.io/" target="_blank" rel="noopener">hexo博客框架</a>（cmd中输入npm install -g hexo-cli 警告可以忽略）<ul><li>hexo文档 </li><li>vexo主题</li></ul></li><li>有道云笔记（支持markdown编辑）</li></ul><h1 id="一-GitHub配置"><a href="#一-GitHub配置" class="headerlink" title="一 GitHub配置"></a>一 GitHub配置</h1><p>参考<a href="https://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000" target="_blank" rel="noopener">@廖雪峰</a>老师关于Git的文章进行配置，然后新建一个repository，并按此以下方式进行命名：yourname.github.io，其中yourname为你注册名，该地址就是你的博客域名。</p><h1 id="二-博客的建立"><a href="#二-博客的建立" class="headerlink" title="二 博客的建立"></a>二 博客的建立</h1><ol><li>自己在某盘创建一个文件夹（比如test），cmd内cd进入test文件夹</li><li>在文件夹内进入Git hash 输入hexo init blog（此处如果出现警告可忽略）</li><li>提示Start blogging with Hexo，就是安装成功了</li><li>文件夹中自带一篇文章“Hello World”</li><li>命令行进入blog目录下</li><li>输入hexo g，生存静态文件</li><li>输入hexo s，启动服务器。默认情况下，访问网址为： <a href="http://localhost:4000/" target="_blank" rel="noopener">http://localhost:4000/</a><ul><li>此处若无法打开可能是端口被占用，可用命令hexo s -p 4002或其他端口进行测试</li></ul></li><li>如可以正常访问则重新打开cmd，输入：ssh-keygen -t rsa -C “Github的注册邮箱地址”，一路Enter得到信息:Your public key has been saved in /c/Users/user/.ssh/id_rsa.pub<ul><li>找到该文件，将id_rsa.pub里的内容粘贴到<a href="https://github.com/settings/ssh" target="_blank" rel="noopener">github的ssh配置</a>中</li><li>New SSH key ——Title：blog —— Key：输入刚才复制的—— Add SSH key</li></ul></li></ol><blockquote><p>如果是跟廖雪峰的git学习资料联系过的，第8个步骤可以略过（配置过了）。</p></blockquote><h1 id="三-博客网站配置"><a href="#三-博客网站配置" class="headerlink" title="三 博客网站配置"></a>三 博客网站配置</h1><p>1.在本地test文件中打开_config.yml文件进行参数配置</p><pre><code>title: 你的博客名subtitle: 你的博客的小名？description: 博客描述，可能有关于搜索引擎抓取author: 作者language: 语言配置timezone: 当地时间</code></pre><p><strong>特别提醒一下，每个自定义参数之前都要有个空格，如</strong> <em>title：（空格）你的博客名</em> ，<strong>否则没法识别。</strong></p><p>2.部署服务器的相关配置信息，只需要修改repo部分，username设置为你的username</p><pre><code>deploy:   type: git  repo: https://github.com/username/username.github.io.git  branch: master</code></pre><h1 id="四-博客发布"><a href="#四-博客发布" class="headerlink" title="四 博客发布"></a>四 博客发布</h1><p><strong>好了，搞到现在可以试着发一篇blog了。</strong></p><ol><li>进入test/blog文件夹下，git bash中输入hexo new “Hello blog”</li><li>打开Info中的地址，打开文件</li><li>用<a href="http://note.youdao.com/iyoudao/?p=2411&amp;vendor=unsilent14" target="_blank" rel="noopener">markdown语法</a>进行编辑，可以用支持该语法的编辑器进行编辑，比如我用的有道云笔记</li><li>编写测试内容：</li></ol><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">---</span><br><span class="line">title: Hello blog</span><br><span class="line">date: </span><br><span class="line">tags: test</span><br><span class="line">---</span><br><span class="line">测试blog，欢迎关注作者博客: https://Coffeeeeel.github.io</span><br><span class="line">暂时是菜逼，正在进步的路上，希望路上也有你</span><br></pre></td></tr></table></figure><ol start="5"><li>执行以下步骤：</li></ol><pre><code>D:\test\blog$ hexo cleanINFO  Deleted database.INFO  Deleted public folder.D:\test\blog$ hexo generateINFO  Start processingINFO  Files loaded in 1.48 s...INFO  29 files generated in 4.27 sD:\test\blog$ hexo serverINFO  Start processingINFO  Hexo is running at http://localhost:4000/. Press Ctrl+C to stop.</code></pre><ol start="6"><li>打开<a href="http://localhost:4000/" target="_blank" rel="noopener">http://localhost:4000/</a>之后，将你的blog部署到服务器上：</li></ol><pre><code>D:\test\blog$ hexo deployINFO  Deploying: git...</code></pre><p>&emsp;其中，可能会出现github登录界面，正常填写就行,hexo deploy 后,出现 &emsp;error deployer not found:git 的错误，输入以下代码:</p><pre><code>npm install hexo-deployer-git –savehexo deploy</code></pre><p><strong>“Hello Blog”</strong></p><h1 id="五-主题配置"><a href="#五-主题配置" class="headerlink" title="五 主题配置"></a>五 主题配置</h1><p>&emsp;hexo提供了非常多的<a href="https://hexo.io/themes/" target="_blank" rel="noopener">主题</a>，大家可以随意尝试，更换主题的步骤如下：</p><ol><li>进入<a href="https://hexo.io/themes/" target="_blank" rel="noopener">官网主题</a>仓库，选择自己喜欢的主题，进入他的github里下载到本地，或者按照作者的提示进行安装</li><li>如果下载到本地可以将主题文件放在blog/themes文件夹下</li><li>在blog下的_config.yml中下面的theme属性改为你下载的主题文件名</li><li>然后按照作者提示进行自己的配置</li><li>这里特别要注意一点：如果该主题有一些其他的页面，如tags，projection等页面，一定要将主题文件/_source下的相关文件拷贝到blog/source下，否则这些页面找不到</li><li>最后重新输入：</li></ol><pre><code>hexo cleanhexo generatehexo deploy</code></pre><p>&emsp;好了，现在你可以享受你的博客了。</p><h1 id="六-写在最后"><a href="#六-写在最后" class="headerlink" title="六 写在最后"></a>六 写在最后</h1><p>&emsp;因为有了前人的经验，所以少了很多坑，希望这篇文章也能够帮助到你。在博客搭建的过程中你也可能遇到一些上面没有提到的问题，但是相信你都可以通过搜索找到答案。</p><p>&emsp; <strong>毕竟自己折腾搭建博客的人，都是一群不怕麻烦的神经病吧…</strong></p><h3 id="以上，祝好。"><a href="#以上，祝好。" class="headerlink" title="以上，祝好。"></a>以上，祝好。</h3>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;blockquote&gt;
-&lt;p&gt;参考了一些文章，最终决定利用hexo这个博客框架加GitHub搭建自己的博客，目的也是为了督促自己能够多写一些东西。该文主要参考了&lt;a href=&quot;https://wuxingggg.github.io/2017/12/22/第二篇/&quot; targe
-      
-    
-    </summary>
-    
-    
-      <category term="折腾" scheme="http://yoursite.com/tags/%E6%8A%98%E8%85%BE/"/>
     
   </entry>
   
