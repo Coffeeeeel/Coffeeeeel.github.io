@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-08-19T11:58:28.000Z</updated>
+  <updated>2018-08-28T12:56:36.000Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,35 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>2018年08月18日</title>
+    <link href="http://yoursite.com/2018/08/28/2018%E5%B9%B408%E6%9C%8828%E6%97%A5/"/>
+    <id>http://yoursite.com/2018/08/28/2018年08月28日/</id>
+    <published>2018-08-27T16:00:00.000Z</published>
+    <updated>2018-08-28T12:56:36.000Z</updated>
+    
+    <content type="html"><![CDATA[<ul><li>引起向上 徒手 8*6</li><li>半程硬拉 35Kg 8*6</li><li>小弯杠铃划船 20Kg 8×6</li><li>哑铃单手划船 22.5Kg 8*6</li><li>山羊挺身 徒手 10*8</li><li>坐姿划船 70Kg 8*6 </li><li>Keep 五维腹肌 </li></ul>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;ul&gt;
+&lt;li&gt;引起向上 徒手 8*6&lt;/li&gt;
+&lt;li&gt;半程硬拉 35Kg 8*6&lt;/li&gt;
+&lt;li&gt;小弯杠铃划船 20Kg 8×6&lt;/li&gt;
+&lt;li&gt;哑铃单手划船 22.5Kg 8*6&lt;/li&gt;
+&lt;li&gt;山羊挺身 徒手 10*8&lt;/li&gt;
+&lt;li&gt;坐姿划船 70Kg 8*6
+      
+    
+    </summary>
+    
+    
+      <category term="健身背部" scheme="http://yoursite.com/tags/%E5%81%A5%E8%BA%AB%E8%83%8C%E9%83%A8/"/>
+    
+  </entry>
   
   <entry>
     <title>2018年08月19日</title>
@@ -46,11 +75,11 @@
   </entry>
   
   <entry>
-    <title>2018年8月18日</title>
-    <link href="http://yoursite.com/2018/08/18/2018%E5%B9%B48%E6%9C%8818%E6%97%A5/"/>
-    <id>http://yoursite.com/2018/08/18/2018年8月18日/</id>
+    <title>2018年08月18日</title>
+    <link href="http://yoursite.com/2018/08/18/2018%E5%B9%B408%E6%9C%8818%E6%97%A5/"/>
+    <id>http://yoursite.com/2018/08/18/2018年08月18日/</id>
     <published>2018-08-17T16:00:00.000Z</published>
-    <updated>2018-08-19T06:37:08.000Z</updated>
+    <updated>2018-08-28T12:55:08.000Z</updated>
     
     <content type="html"><![CDATA[<ul><li>引起向上 徒手 8*6</li><li>半程硬拉 30Kg 8*6</li><li>小弯杠铃划船 20Kg 8×6</li><li>哑铃单手划船 20Kg 8*6</li><li>山羊挺身 徒手 10*8</li><li>坐姿划船 65Kg 8*6 </li><li>Keep 五维腹肌 </li></ul>]]></content>
     
@@ -546,13 +575,13 @@
     <published>2018-04-24T00:59:27.000Z</published>
     <updated>2018-04-24T01:12:52.000Z</updated>
     
-    <content type="html"><![CDATA[<div id="echarts8728" style="width: 85%;height: 400px;margin: 0 auto"></div><script src="http://echarts.baidu.com/dist/echarts.common.min.js"></script><script type="text/javascript">        // 基于准备好的dom，初始化echarts实例        var myChart = echarts.init(document.getElementById('echarts8728'));        // 指定图表的配置项和数据        var option = {    tooltip : {        trigger: 'axis',        axisPointer : {                        type : 'shadow'        }    },    legend: {        data:['利润', '支出', '收入']    },    grid: {        left: '3%',        right: '4%',        bottom: '3%',        containLabel: true    },    xAxis : [        {            type : 'value'        }    ],    yAxis : [        {            type : 'category',            axisTick : {show: false},            data : ['周一','周二','周三','周四','周五','周六','周日']        }    ],    series : [        {            name:'利润',            type:'bar',            itemStyle : {                normal: {                    label: {show: true, position: 'inside'}                }            },            data:[200, 170, 240, 244, 200, 220, 210]        },        {            name:'收入',            type:'bar',            stack: '总量',            itemStyle: {                normal: {                    label : {show: true}                }            },            data:[320, 302, 341, 374, 390, 450, 420]        },        {            name:'支出',            type:'bar',            stack: '总量',            itemStyle: {normal: {                label : {show: true, position: 'left'}            }},            data:[-120, -132, -101, -134, -190, -230, -210]        }    ]};        // 使用刚指定的配置项和数据显示图表。        myChart.setOption(option);</script>]]></content>
+    <content type="html"><![CDATA[<div id="echarts4820" style="width: 85%;height: 400px;margin: 0 auto"></div><script src="http://echarts.baidu.com/dist/echarts.common.min.js"></script><script type="text/javascript">        // 基于准备好的dom，初始化echarts实例        var myChart = echarts.init(document.getElementById('echarts4820'));        // 指定图表的配置项和数据        var option = {    tooltip : {        trigger: 'axis',        axisPointer : {                        type : 'shadow'        }    },    legend: {        data:['利润', '支出', '收入']    },    grid: {        left: '3%',        right: '4%',        bottom: '3%',        containLabel: true    },    xAxis : [        {            type : 'value'        }    ],    yAxis : [        {            type : 'category',            axisTick : {show: false},            data : ['周一','周二','周三','周四','周五','周六','周日']        }    ],    series : [        {            name:'利润',            type:'bar',            itemStyle : {                normal: {                    label: {show: true, position: 'inside'}                }            },            data:[200, 170, 240, 244, 200, 220, 210]        },        {            name:'收入',            type:'bar',            stack: '总量',            itemStyle: {                normal: {                    label : {show: true}                }            },            data:[320, 302, 341, 374, 390, 450, 420]        },        {            name:'支出',            type:'bar',            stack: '总量',            itemStyle: {normal: {                label : {show: true, position: 'left'}            }},            data:[-120, -132, -101, -134, -190, -230, -210]        }    ]};        // 使用刚指定的配置项和数据显示图表。        myChart.setOption(option);</script>]]></content>
     
     <summary type="html">
     
       
       
-        &lt;div id=&quot;echarts8728&quot; style=&quot;width: 85%;height: 400px;margin: 0 auto&quot;&gt;&lt;/div&gt;
+        &lt;div id=&quot;echarts4820&quot; style=&quot;width: 85%;height: 400px;margin: 0 auto&quot;&gt;&lt;/div&gt;
 &lt;script src=&quot;http://echarts.baidu.com/dist/echarts.common.min.j
       
     
@@ -560,34 +589,6 @@
     
     
       <category term="test" scheme="http://yoursite.com/tags/test/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>2018年04月23日</title>
-    <link href="http://yoursite.com/2018/04/23/2018%E5%B9%B404%E6%9C%8823%E6%97%A5/"/>
-    <id>http://yoursite.com/2018/04/23/2018年04月23日/</id>
-    <published>2018-04-22T16:00:00.000Z</published>
-    <updated>2018-07-09T13:14:28.000Z</updated>
-    
-    <content type="html"><![CDATA[<ul><li>引体向上 66lbs 8x4</li><li>杠铃上斜卧推 12.5Kg 8x2 10Kg 6x4</li><li>哑铃上斜卧推（正常） 15Kg 8x6</li><li>哑铃上斜卧推（对握） 12.5Kg 8x2</li><li>哑铃平板我推（正常） 15Kg 8x4</li><li>哑铃平板我推（对握） 12.5Kg 10x2</li><li>蝴蝶机 40Kg 8x4</li><li>卷腹 30x2+20x4</li></ul>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;ul&gt;
-&lt;li&gt;引体向上 66lbs 8x4&lt;/li&gt;
-&lt;li&gt;杠铃上斜卧推 12.5Kg 8x2 10Kg 6x4&lt;/li&gt;
-&lt;li&gt;哑铃上斜卧推（正常） 15Kg 8x6&lt;/li&gt;
-&lt;li&gt;哑铃上斜卧推（对握） 12.5Kg 8x2&lt;/li&gt;
-&lt;li&gt;哑铃平板我推（正常） 
-      
-    
-    </summary>
-    
-    
-      <category term="健身胸部" scheme="http://yoursite.com/tags/%E5%81%A5%E8%BA%AB%E8%83%B8%E9%83%A8/"/>
     
   </entry>
   
